@@ -1,0 +1,27 @@
+.container {
+  width: 500px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.form-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container label {
+  text-align: start;
+}
+
+.form-container input {
+  outline: none;
+  border: 1px solid black;
+  color: black;
+
+  padding: 10px 5px;
+  border-radius: 5px;
+  background-color: transparent;
+}
